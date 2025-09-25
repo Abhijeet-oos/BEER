@@ -47,7 +47,8 @@ export default function App() {
             </p>
             <p className="text-gray-600 mb-1">
               <span className="font-semibold">Rating:</span>{" "}
-              {beer.rating?.average} ⭐ ({beer.rating?.reviews})
+              {Math.trunc(beer.rating?.average)} ⭐ ({beer.rating?.reviews})
+
             </p>
             {beer.brewery && (
               <p className="text-gray-600 mb-1">
