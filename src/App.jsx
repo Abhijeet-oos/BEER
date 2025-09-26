@@ -45,12 +45,7 @@ export default function App() {
               {Math.trunc(beer.rating?.average)} ⭐ ({beer.rating?.reviews})
 
             </p>
-            {beer.brewery && (
-              <p className="text-gray-600 mb-1">
-                <span className="font-semibold">Brewery:</span> {beer.brewery}
-              </p>
-            )}
-            <p className="text-sm text-gray-500 mt-3">{beer.description}</p>
+            
           </div>
         ))}
       </div>
