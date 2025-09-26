@@ -39,12 +39,7 @@ export default function App() {
             <p className="text-gray-600 mb-1">
               <span className="font-semibold">Price:</span> {beer.price}
             </p>
-            <p className="text-gray-600 mb-1">
-              <span className="font-semibold">ABV:</span> {beer.abv}
-            </p>
-            <p className="text-gray-600 mb-1">
-              <span className="font-semibold">Type:</span> {beer.type}
-            </p>
+            
             <p className="text-gray-600 mb-1">
               <span className="font-semibold">Rating:</span>{" "}
               {Math.trunc(beer.rating?.average)} ⭐ ({beer.rating?.reviews})
